@@ -1,0 +1,25 @@
+.carousel{
+  a{
+    background-image: none!important;
+    color: $red;
+    opacity: 1;
+    text-shadow: none;
+
+    &:hover{
+      color: darken($red, 10%);
+    }
+  }
+
+  i{
+    position: absolute;
+    top: 50%;
+  }
+
+  .carousel-inner{
+    .item{
+      img{
+        margin: 0 auto;
+      }
+    }
+  }
+}

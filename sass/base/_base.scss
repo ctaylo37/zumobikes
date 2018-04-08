@@ -1,0 +1,33 @@
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 400px) {
+  html { font-size: 16px; }
+}
+
+@media (max-width: 900px) {
+  html { font-size: 18px; }
+}
+
+@media(min-width: 1280px){
+  html {font-size: 20px;}
+}
+
+body{
+  font-size: 0.8rem;
+  background-color: $paper;
+  position: relative;
+}
+
+.row{
+  margin: 0!important;
+}
+
+a{
+  transition: background-color 0.4s ease-in-out;
+}
+
+img{
+  max-width: 100%;
+}

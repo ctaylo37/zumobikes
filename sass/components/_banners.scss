@@ -1,0 +1,9 @@
+.announcement{
+	background: $paper;
+	padding: 24px 48px;
+
+	.btn, h3{
+		display: inline-block;
+		margin: 0 12px;
+	}
+}

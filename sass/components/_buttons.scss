@@ -1,0 +1,21 @@
+.btn-primary{
+	background-color: $teal;
+	border: transparent;
+
+	&:hover, &:focus{
+		background-color: darken($teal, 8%);
+		border: transparent;
+	}
+}
+
+.btn-default{
+	background-color: $dark-grey;
+	border: transparent;
+	color: $paper;
+
+	&:hover, &:focus{
+		background-color: darken($dark-grey, 8%);
+		border: transparent;
+		color: $paper;
+	}
+}

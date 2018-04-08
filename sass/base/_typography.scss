@@ -1,0 +1,66 @@
+body{
+	font-family: 'Varela Round', sans-serif;
+	color: grey;
+	line-height: 1.5;
+	font-size: 1rem;
+}
+
+h1, h2, h3{
+	font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3{
+	color: $dark-grey;
+
+	&.red{
+		color: $red;
+	}
+	
+	&.grey{
+		color: $grey;
+	}
+	
+	&.green{
+		color: $green;
+	}
+
+	&.light{
+		color: $paper;
+	}
+}
+
+h1{
+	font-size: 2rem;
+
+	&.big{
+		font-size: 3rem;
+
+		strong{
+			color: $red;
+		}
+	}
+}
+
+h2{
+	font-size: 1.8rem;
+}
+
+h3{
+	font-size: 1.5rem;
+}
+
+p{
+	&.light{
+		color: rgba(255,255,255,.8);
+	}
+}
+
+label{
+	font-family: 'Roboto', sans-serif;
+	color: $dark-grey;
+	font-weight: 400;
+	font-size: 0.6rem;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+	line-height: 1;
+}

@@ -1,0 +1,114 @@
+#content{
+  margin-top: 90px;
+
+  #intro{
+    background-color: $teal;
+    padding-top: 100px;
+
+    img{
+      margin-bottom: -38px;
+    }
+  }
+
+  #mission{
+    padding: 160px 0 0 0;
+  }
+
+  #story{
+    padding-top: 90px;
+  }
+
+  #hardware{
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+
+    img{
+      position: relative;
+      z-index: 150;
+    }
+  }
+
+  #jarius{
+    background-color: $teal;
+    padding: 120px 0;
+    position: relative;
+  }
+
+  #kids{
+    padding: 120px 0;
+    border-bottom: solid 1px #e6e6e6;
+  }
+
+  #video{
+    padding: 60px 0 120px 0;
+    background-color: #e6e6e6;
+
+    h1{
+      margin: 3rem 0;
+    }
+  }
+
+  #numbers{
+    padding: 60px 0 120px 0;
+
+    h1{
+      margin: 3rem 0;
+    }
+  }
+
+  #involved{
+    padding: 140px 0;
+    background-color: $green;
+    background-image: url('../img/trees.svg');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50vh;
+  }
+
+  #contact{
+    background-color: $dark-grey;
+    padding: 60px 0;
+
+    a{
+      color: $green;
+
+      &:hover{
+        color: darken($green, 8%);
+      }
+    }
+  }
+
+  footer{
+    padding: 140px 0;
+    background-color: #5a736e;
+    background-image: url('../img/footer-clouds.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 70vh;
+
+    a{
+      color: $paper;
+
+      &:hover{
+        color: $green;
+      }
+    }
+  }
+
+  .card{
+    background-color: #e6e6e6;
+    border-radius: 4px;
+    padding: 24px;
+  }
+
+  .form-control{
+    height: 42px;
+  }
+
+  input[type="file"] {
+    display: block;
+    width: 100%;
+  }
+}
